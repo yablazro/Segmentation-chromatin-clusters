@@ -58,6 +58,7 @@ devstd => Specifies the standard deviation used for the gaussian blur
 NORMALIZATION METHODS
 
 Three option to define the method used to normalize the raw image:
+
 1 => Individual pixel normalization (I_norm=(I-Imin)/Imean), where I is 
      the raw intensity of the pixel, Imin minimum intensity within the 
      frame and Imean the mean intensity of the frame ignoring zeros.
